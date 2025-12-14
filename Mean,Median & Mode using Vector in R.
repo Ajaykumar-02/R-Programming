@@ -1,0 +1,6 @@
+#Using Vector
+a<-c(1,2,1,2,1,1,5,3,7)
+mean(a)
+median(a)
+# mode(a)
+names(sort(-table(a)))[1]
