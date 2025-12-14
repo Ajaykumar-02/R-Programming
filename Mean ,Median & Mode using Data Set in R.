@@ -1,0 +1,5 @@
+#using dataset
+Orange
+mean(Orange$age)
+median(Orange$age)
+names(sort(-table(Orange$age)))[1]
