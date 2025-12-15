@@ -1,0 +1,28 @@
+# # NA (NOT Available)
+x <- c(1,2,NA,4,NA)
+x
+# # for Finding the NA Value
+is.na(x)
+
+# #NaN (Not a Number)
+a <- c(0/0)
+a
+
+# NULL
+y <- NULL
+y
+is.null(y)
+
+#INF (Infinity)
+b <- c(10/0,2,1)
+b
+
+# DATA SET for finding 
+D <- c(1,2,NA,NaN,3,Inf)
+D
+is.na(D) # is.na = na or nan dono value represent true 
+is.nan(D) # Only NaN
+is.infinite(D) # Only Inf
+
+
+
