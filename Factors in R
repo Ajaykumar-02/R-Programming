@@ -1,0 +1,3 @@
+# Factors in R
+gender <- factor(c("Male","Female","Others","Male"))
+gender
