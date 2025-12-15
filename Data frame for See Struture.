@@ -1,0 +1,7 @@
+
+# Data Frame
+std <- c("ajay","aman","rahul")
+std.marks <- c(90,87,50)
+DF= data.frame(std,std.marks)
+# for see the Struture
+str(DF)
