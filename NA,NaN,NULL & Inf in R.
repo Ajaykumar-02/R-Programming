@@ -23,6 +23,9 @@ D
 is.na(D) # is.na = na or nan dono value represent true 
 is.nan(D) # Only NaN
 is.infinite(D) # Only Inf
+# For count 
+sum(is.na(D)) # NA & NaN
+sum(is.nan(D)) #only Nan
 
 
 
