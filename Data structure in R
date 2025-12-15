@@ -1,0 +1,27 @@
+# Data structure in R
+
+#vector
+A <- c(10,20,30,42)
+A
+
+#List
+B <-list(10,20,30,4.2)
+B
+
+# Data Frame
+std <- c("ajay","aman","rahul")
+std.marks <- c(90,87,50)
+DF= data.frame(std,std.marks)
+DF
+
+#Array
+E <- array(c(1,2,3,4,5,6),dim=c(3,2,1))
+E
+
+#Matrix
+# for column
+F =matrix(c(7,8,9,10,11,12),nrow=2,ncol=3)
+F
+# for row
+G =matrix(c(7,8,9,10,11,12),nrow=2,ncol=3,byrow=TRUE)
+G
