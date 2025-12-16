@@ -1,0 +1,18 @@
+# Regression in R
+
+# Heigth = x
+x <- c(5.1,5.3,5.8,6.1,5.5,6.3)
+# Weigth = y
+y <- c(51,53,58,61,55,63)
+#Apply fuction 
+relation <- lm(y~x)
+summary(relation)
+
+# Predict Weight 
+DF = data.frame(x=6.0)
+result<- predict(relation,DF)
+print(result)
+
+#Plot the regression line
+plot(x,y)
+abline(relation,col="red")
